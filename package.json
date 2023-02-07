@@ -6,11 +6,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "parcel": "^2.8.3"
   },
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "server": "http-server ./dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
